@@ -1,0 +1,122 @@
+/* REGLAS GENERALES Y COMPUESTAS */
+
+*{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(138, 206, 158);
+    margin: 0 30%;
+}
+
+header, main, footer{
+    border-radius: 20px;
+    margin: 20px 20px;
+    /* border: 1px solid black; */
+}
+
+h1{
+    font-family: 'Delius', cursive, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 40px;
+    text-align: start;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(18, 195, 71));
+    border-radius: 30px;
+    font-family: 'Pixelify Sans', cursive, Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin: 0 5 0 0px;
+    padding: 0 10 0 0px;
+}
+
+p, li, a{
+    font-size: 25px;
+    font-family: 'Teko', sans-serif, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.08em;
+}
+
+header, footer{
+    background-color: rgb(18, 195, 71);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* .contenedor{
+    margin: 0 60px;
+    border: solid 1px black;
+} */
+
+/* REGLAS HEADER */
+
+
+
+/* REGLAS MAIN */
+
+main{
+    padding: 10px 20px;
+    box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.31);
+}
+
+/* main:hover{
+    box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.31);
+} */
+
+#profile-img{
+    margin: 10px 0 10px 0px;
+}
+
+#profile-img > img{
+    width: 150px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 81px -3px rgba(0,0,0,0.31);
+}
+
+.intereses, .links{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.intereses > li{
+    padding: 3px 0;
+    margin: 0 0 0 -30px;
+}
+
+.links{
+    list-style-type: none;
+}
+.links > li{
+    padding: 3px 0;
+    margin: 0 0 0 -20px;
+}
+
+.separador{
+    height: 10px;
+    background-color: rgb(18, 195, 71);
+    border-radius: 100%;
+}
+
+/* REGLAS FOOTER */
+
+a{
+    padding: 1px 10px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    background-color: rgb(18, 195, 71);
+}
+
+/* a:visited{
+    color: gray;
+} */
